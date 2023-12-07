@@ -1,11 +1,17 @@
 body {
     background-color: ghostwhite;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vh;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 99vh;
 }
 
 h1{
     margin-top: 0pt;
-    margin-bottom: 10pt;
+    margin-bottom: 0.5em;
 }
 
 p {
@@ -14,30 +20,28 @@ p {
     align-items: center;
     /* border: 1pt #aaaaaa solid; */
     background-color: ghostwhite;
-    border-radius: 3pt;
+    border-radius: 0.3em;
     /* border-style: inset; */
-    padding: 3pt;
-    margin-top: 5pt;
+    padding: 0.5em;
+    margin-top: 0.5em;
     margin-bottom: 0pt;
     color: gray;
-    font-size: 20pt;
 }
 
 i {
-    width: 20pt;
+    width: 2em;
     text-align: center;
 }
 
 span {
-    margin-right: 10pt;
-    font-size: 15pt;
+    margin-right: 1em;
 }
 
 .line-num {
     display: inline-flex;
     /* border-width: 2pt;
     border-style: solid; */
-    border-radius: 2pt;
+    border-radius: 0.5em;
     width: 1.5em;
     height: 1.5em;
     justify-content: center;
@@ -46,9 +50,9 @@ span {
 }
 
 .stop {
-    border-radius: 15pt;
+    border-radius: 1em;
     background-color: white;
-    padding: 15pt;
+    padding: 1em;
 }
 
 #stops-container {
@@ -57,9 +61,5 @@ span {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    gap: 15pt;
-}
-
-#settings {
-    margin-top: 15pt;
+    gap: 0.5em;
 }
