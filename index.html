@@ -16,6 +16,7 @@
         <input id="distance-input" type="number" max="2000" min="10" value="350"/>
         <label for="live-input">Live</label>
         <input id="live-input" type="checkbox" onclick="check_live();" checked/>
+        <button type="button" onclick="localStorage.setItem('stib_api_key', prompt('Please enter your STIB API key'));">Reset API key</button>
     </div>
     <script src="code.js" type="text/javascript"></script>
 </body>
